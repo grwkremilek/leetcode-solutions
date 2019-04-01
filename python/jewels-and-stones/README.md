@@ -4,23 +4,16 @@ You're given strings J representing the types of stones that are jewels, and S r
 
 The letters in J are guaranteed distinct, and all characters in J and S are letters. Letters are case sensitive, so "a" is considered a different type of stone from "A".
 
-
-####example 1:
+Example 1:
 Input: J = "aA", S = "aAAbbbb"
-
 Output: 3
 
-####example 2:
+Example 2:
 Input: J = "z", S = "ZZ"
-
 Output: 0
 
-
-##Analysis
+## comments
 brute force (68 ms)
-(40 ms)
-(32 ms)
 
 
-####Runtime: 32 ms
-####100.00%
+## Runtime: 32 ms
