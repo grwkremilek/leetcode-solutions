@@ -1,14 +1,14 @@
-# Valid Parentheses
+#https://leetcode.com/problems/valid-parentheses/
 
-Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
-
-An input string is valid if:
-
-Open brackets must be closed by the same type of brackets.
-
-Open brackets must be closed in the correct order.
-
-Note that an empty string is also considered valid.
-
-#### Runtime: 36 ms, faster than 90.05%
-
+def isValid(s):   
+    parents = {')' : '(', '}' : '{', ']' : '['}
+    stack = []
+    for i in s:
+        if i in parents.values():
+            stack.append(i)
+        else:
+            if stack and stack[-1] == parents[i]:
+                stack.pop()
+            else:
+                stack.append(i)
+return not stack

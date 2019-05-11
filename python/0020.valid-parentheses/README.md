@@ -1,6 +1,14 @@
-# Group Anagrams
+# Valid Parentheses
 
-Given an array of strings, group anagrams together.
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
-#### Runtime: 100 ms, faster than 100.00%
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+
+Open brackets must be closed in the correct order.
+
+Note that an empty string is also considered valid.
+
+#### Runtime: 36 ms, faster than 90.05%
 
