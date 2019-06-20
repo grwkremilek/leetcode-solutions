@@ -1,8 +1,7 @@
 #https://leetcode.com/problems/longest-substring-without-repeating-characters/
 
 def lengthOfLongestSubstring(s):
-    used = {}
-    max_length = start = 0
+    used = {}; max_length = start = 0
     for i, c in enumerate(s):
         if c in used and start <= used[c]:
             start = used[c] + 1
