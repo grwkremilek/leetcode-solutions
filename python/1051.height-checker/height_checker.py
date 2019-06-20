@@ -1,6 +1,6 @@
 #https://leetcode.com/problems/height-checker
 
-def heightChecker(self, heights: List[int]) -> int:
+def heightChecker(heights):
     sort_heights = sorted(heights)
     count = 0
     for n1, n2 in zip(heights, sort_heights):
