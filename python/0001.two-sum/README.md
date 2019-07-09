@@ -6,7 +6,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 
 
-## comments
+## solutions
 
 * brute force (looping through each array once)
 
@@ -32,4 +32,8 @@ You may assume that each input would have exactly one solution, and you may not 
 
 
 
-#### Runtime: 44 ms (68.58%)
+python: single-pass with a hash table
+#### Runtime: 40 ms, faster than 75.27%
+
+cpp
+#### Runtime: 8 ms, faster than 95.46%
