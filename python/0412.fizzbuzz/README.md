@@ -10,3 +10,6 @@ python
 
 c++
 #### Runtime: 0 ms, faster than 100.00%
+
+
+- [leetcode solution hints](https://leetcode.com/problems/fizz-buzz/solution/)
