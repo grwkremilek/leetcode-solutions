@@ -1,4 +1,4 @@
-# brute force (68ms)
+
 def numJewelsInStones(J, S):
     count=0
     for s in S:
@@ -7,12 +7,19 @@ def numJewelsInStones(J, S):
     return count
 
 
-#40ms
 def numJewelsInStones(J, S):
     return sum(s in J for s in S)
 
 
-#32ms
 def numJewelsInStones(J, S):
     return(len([x for x in S if x in J]))
 
+
+class Solution:
+    def numJewelsInStones(J, S):
+        d = {}
+        
+        for c in S:
+            if c in J:
+                d[c] = d.get(c, 0) + 1
+        return sum(d.values())
