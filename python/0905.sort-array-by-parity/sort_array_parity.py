@@ -13,7 +13,7 @@ def sortArrayByParity(A):
 def sortArrayByParity(A):
     odd, even = [], []
     for a in A:
-        (odd, even)[a % 2 == 0].append(a) 
+        (odd, even)[a % 2 == 0].append(a)
     return even+odd
 
 
