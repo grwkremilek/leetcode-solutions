@@ -15,11 +15,9 @@ def numJewelsInStones(J, S):
     return(len([x for x in S if x in J]))
 
 
-class Solution:
-    def numJewelsInStones(J, S):
-        d = {}
-        
-        for c in S:
-            if c in J:
-                d[c] = d.get(c, 0) + 1
-        return sum(d.values())
+def numJewelsInStones(J, S):
+    d = {}
+    for c in S:
+        if c in J:
+            d[c] = d.get(c, 0) + 1
+    return sum(d.values())
