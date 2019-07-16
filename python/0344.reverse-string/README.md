@@ -7,4 +7,13 @@ Do not allocate extra space for another array, you must do this by modifying the
 You may assume all the characters consist of printable ascii characters.
 
 
-#### Runtime: 164 ms (76.69%)
+python
+
+#### Runtime: 164 ms, faster than 76.69%
+#### Runtime: 164 ms, faster than 88.68%
+#### Runtime: 160 ms, faster than 95.30%
+
+
+c++
+#### Runtime: 52 ms, faster than 58.94%
+#### Runtime: 44 ms, faster than 94.11%
