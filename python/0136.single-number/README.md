@@ -11,4 +11,9 @@ python
 #### Runtime: 56 ms, faster than 19.57% *
 
 
+c++
+#### Runtime: 16 ms, faster than 75.19%
+#### Runtime: 12 ms, faster than 96.24% 
+
+
 * [xor](https://leetcode.com/problems/single-number/discuss/212520/XOR-Python)
