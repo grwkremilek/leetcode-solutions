@@ -73,5 +73,5 @@ def rangeSumBST(root, L, R):
 
 
 def rangeSumBST(root, L, R):
-    return root and self.rangeSumBST(root.left, L, R) + self.rangeSumBST(root.right, L, R) + (L <= root.val <= R) * root.val or 0
+    return root and rangeSumBST(root.left, L, R) + rangeSumBST(root.right, L, R) + (L <= root.val <= R) * root.val or 0
     
