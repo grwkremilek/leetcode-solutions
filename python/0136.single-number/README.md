@@ -2,9 +2,13 @@
 
 Given a non-empty array of integers, every element appears twice except for one. Find that single one.
 
-Note:
+python
 
-Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
+#### Runtime: 48 ms, faster than 44.54%
+#### Runtime: 48 ms, faster than 33.81%
+#### Runtime: 1160 ms, faster than 8.46%
+#### Runtime: 40 ms, faster than 82.03%
+#### Runtime: 56 ms, faster than 19.57% *
 
 
-#### Runtime: 48 ms (44.54%)
+* [xor](https://leetcode.com/problems/single-number/discuss/212520/XOR-Python)
