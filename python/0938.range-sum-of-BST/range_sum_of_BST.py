@@ -55,4 +55,23 @@ def rangeSumBST(root, L, R):
         return self.rangeSumBST(root.right, L, R)
     else:
         return self.rangeSumBST(root.left, L, R)
-			
+
+
+def rangeSumBST(root, L, R):
+    if not root:
+        return 0            
+    def postorder(node, _L, _R):
+        ans = 0
+        if _R > L and node.left:
+            ans += postorder(node.left, _L, node.val)
+        if _L < R  and node.right:
+            ans += postorder(node.right, node.val, _R)
+        if L <= node.val <= R:
+            ans += node.val
+        return ans        
+    return postorder(root, float("-inf"), float("inf"))
+
+
+def rangeSumBST(root, L, R):
+    return root and self.rangeSumBST(root.left, L, R) + self.rangeSumBST(root.right, L, R) + (L <= root.val <= R) * root.val or 0
+    
