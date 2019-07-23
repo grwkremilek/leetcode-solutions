@@ -10,3 +10,11 @@ def twoSum(numbers,target):
             l += 1
         else:
             r -= 1
+
+
+def twoSum(numbers, target):
+    d = {}
+    for i in range(len(numbers)):
+        if target - numbers[i] in d:
+            return [d[target-numbers[i]]+1, i+1]
+        d[numbers[i]] = i
