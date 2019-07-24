@@ -2,5 +2,9 @@
 
 Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
 
-#### Runtime: 816 ms, faster than 19.68%
 
+python
+
+#### Runtime: 816 ms, faster than 19.68%
+#### Runtime: 816 ms, faster than 19.68%
+#### Runtime: 72 ms, faster than 34.91%
