@@ -19,3 +19,4 @@ python
 
 c++
 #### Runtime: 0 ms, faster than 100.00%
+#### Runtime: 0 ms, faster than 100.00%
