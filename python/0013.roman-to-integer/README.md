@@ -12,5 +12,15 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 
 Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.
 
-#### Runtime: 64 ms, faster than 98.44%
 
+Python
+
+#### Runtime: 64 ms, faster than 98.44%
+#### Runtime: 52 ms, faster than 79.23%
+#### Runtime: 56 ms, faster than 59.62%
+
+
+C++
+
+#### Runtime: 20 ms, faster than 38.75%
+#### Runtime: 20 ms, faster than 38.75%
