@@ -35,7 +35,7 @@ def permute(nums):
     return perms
         
 
-
+divide and conquer, recursion
 def permute(nums):
     res = []
     dfs(nums, [], res)
