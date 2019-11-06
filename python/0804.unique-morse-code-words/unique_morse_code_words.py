@@ -10,3 +10,25 @@ def uniqueMorseRepresentations(words):
             translation = ''.join(trans)
             d[translation] = d.get(translation, 0) + 1
         return len(d)
+
+
+def uniqueMorseRepresentations(words):
+    morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+    transformations = []
+    for word in words:
+        trans = ''
+        for c in word:
+            trans += morse[ord(c) - 97]
+        transformations.append(trans)
+    return len(set(transformations))
+
+
+def uniqueMorseRepresentations(words):
+    morse = [".-","-...","-.-.","-..",".","..-.","--.","....","..",".---","-.-",".-..","--","-.","---",".--.","--.-",".-.","...","-","..-","...-",".--","-..-","-.--","--.."]
+    transformations = set()
+    for word in words:
+        trans = ''
+        for c in word:
+            trans += morse[ord(c) - 97]
+        transformations.add(trans)
+    return len(transformations)	

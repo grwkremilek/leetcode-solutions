@@ -10,5 +10,15 @@ Now, given a list of words, each word can be written as a concatenation of the M
 
 Return the number of different transformations among all words we have.
 
-#### Runtime: 36 ms, faster than 88.10%
 
+
+
+python
+
+#### Runtime: 36 ms, faster than 88.10%
+#### Runtime: 32 ms, faster than 99.31%
+#### Runtime: 36 ms, faster than 95.80%
+
+c++
+
+#### Runtime: 0 ms, faster than 100.00%
