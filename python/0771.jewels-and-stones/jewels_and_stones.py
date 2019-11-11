@@ -21,3 +21,7 @@ def numJewelsInStones(J, S):
         if c in J:
             d[c] = d.get(c, 0) + 1
     return sum(d.values())
+
+
+def numJewelsInStones(self, J: str, S: str) -> int:
+        return sum(map(J.count,S))
