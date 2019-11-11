@@ -11,3 +11,22 @@ def judgeCircle(moves):
 
 def judgeCircle(moves):
     return moves.count('L') == moves.count('R') and moves.count('U') == moves.count('D')
+    
+
+def judgeCircle(self, moves: str) -> bool:
+    move1 = 0
+    move2 = 0
+    for m in moves:
+        if m == 'U': 
+            move1 += 1
+        elif m == 'D':
+            move1 -=1
+        elif m == 'L':
+            move2 += 1
+        elif m == 'R':
+            move2 -=1
+    return move1 == 0 and move2 == 0
+
+
+def judgeCircle(self, moves: str) -> bool:
+    return moves.count("U") == moves.count("D") and moves.count("L") == moves.count("R")
