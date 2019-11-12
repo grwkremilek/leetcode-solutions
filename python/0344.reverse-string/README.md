@@ -12,6 +12,7 @@ python
 #### Runtime: 164 ms, faster than 76.69%
 #### Runtime: 164 ms, faster than 88.68%
 #### Runtime: 160 ms, faster than 95.30%
+#### Runtime: 212 ms, faster than 98.53%
 
 
 c++
