@@ -1,6 +1,6 @@
 #https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/
 
-def countCharacters(words, chars):
+def countCharacters(cwords, chars):
         res = 0
         for word in words:
             add = True
