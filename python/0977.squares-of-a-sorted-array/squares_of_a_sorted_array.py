@@ -1,4 +1,4 @@
-#https://leetcode.com/problems/squares-of-a-sorted-array/
+#https://leetcode.com/problsquares-of-a-sorted-array/
 
 
 def sortedSquares(A):
