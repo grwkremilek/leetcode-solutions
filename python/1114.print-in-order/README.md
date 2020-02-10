@@ -18,3 +18,8 @@ python
 #### Runtime: 36 ms, faster than 76.36%         #semaphores
 
 #### Runtime: 36 ms, faster than 76.36%         #events
+
+
+cpp
+
+#### Runtime: 140 ms, faster than 76.55%        #semaphores
