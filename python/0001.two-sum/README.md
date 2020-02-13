@@ -32,8 +32,10 @@ You may assume that each input would have exactly one solution, and you may not 
 
 
 
-python: single-pass with a hash table
-#### Runtime: 40 ms, faster than 75.27%
+
+python:
+#### Runtime: 40 ms, faster than 75.27%			single-pass with a hash table
+
 
 cpp
 #### Runtime: 8 ms, faster than 95.46%
